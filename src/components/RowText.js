@@ -11,7 +11,7 @@ const RowText = (props) => {
   } = props;
   return (
     <View style={containerStyles}>
-      <Text style={messageOneStyles}>{messageOne}</Text>
+      <Text style={messageOneStyles}>{messageOne} </Text>
       <Text style={messageTwoStyles}>{messageTwo}</Text>
     </View>
   );
